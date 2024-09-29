@@ -1,4 +1,4 @@
-import { Equipo, Tipo, Estado  } from "./types/act1";
+import { Equipo, Tipo, Estado  } from "../types/act1";
 
 class Inventario {
     private static instancia: Inventario;
@@ -31,4 +31,6 @@ inventario.agregarEquipo("Notebook HP", "Portátil", "en reparación");
 inventario.agregarEquipo("Dell Latitude E5450", "Portátil", "disponible");
 inventario.agregarEquipo("HP OfficeJet 4520", "Impresora", "reservado");
 
+/*
 console.log(inventario.listarEquipos());
+*/

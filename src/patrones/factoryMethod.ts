@@ -1,4 +1,4 @@
-import { Equipo, TipoNotebook, TipoDesktop, TipoServidor, TipoOS } from "./types/act2";
+import { Equipo, TipoNotebook, TipoDesktop, TipoServidor, TipoOS } from "../types/act2";
 
 class EquipoNotebook implements Equipo {
     private tipo: "Notebook";
@@ -84,6 +84,8 @@ export const equipo1 = factory.crearEquipo({tipo: "Notebook", nombre: "Dell Lati
 export const equipo2 = factory.crearEquipo({tipo: "Desktop", procesador: "Ryzen 5", ram: "32GB" });
 export const equipo3 = factory.crearEquipo({tipo: "Servidor", procesador: "Xeon", ram: "64GB", OS:"Linux" });
 
+/*
 console.log(equipo1.detalles());
 console.log(equipo2.detalles());
 console.log(equipo3.detalles());
+*/
